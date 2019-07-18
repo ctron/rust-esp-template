@@ -4,7 +4,6 @@
 #![allow(non_snake_case)]
 
 pub mod std {
-    pub use core::*;
     pub mod os {
         pub mod raw {
             pub enum c_void {}
